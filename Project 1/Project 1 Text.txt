@@ -1,0 +1,28 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Corrines-MacBook-Pro-2:~ corrinearamburo$ pwd
+/Users/corrinearamburo
+(base) Corrines-MacBook-Pro-2:~ corrinearamburo$ cd Desktop/
+(base) Corrines-MacBook-Pro-2:Desktop corrinearamburo$ cd Git\ Hub/
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ pwd
+/Users/corrinearamburo/Desktop/Git Hub
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ git config --global user.name "aramburoc"
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ git config --global user.email "corrine_aramburo@berkeley.edu"
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ git config --global credential.helper cache
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ git clone https://github.com/aramburoc/ Computational-Social-Science-Projects.git
+Cloning into ' Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) Corrines-MacBook-Pro-2:Git Hub corrinearamburo$ cd Computational-Social-Science-Projects 
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ mkdir “Project 1” 
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ cd Project\ 1/
+(base) Corrines-MacBook-Pro-2:Computational-Social-Science-Projects corrinearamburo$ cd Project\ 1/
+(base) Corrines-MacBook-Pro-2:Project 1 corrinearamburo$ touch "Project 1 Text.txt"
+(base) Corrines-MacBook-Pro-2:Project 1 corrinearamburo$ vim Project\ 1\ Text.txt 
+(base) Corrines-MacBook-Pro-2:Project 1 corrinearamburo$ git add Project\ 1\ Text.txt
+(base) Corrines-MacBook-Pro-2:Project 1 corrinearamburo$ git commit -m "Adding my commands for project 1" 
+(base) Corrines-MacBook-Pro-2:Project 1 corrinearamburo$ git push
